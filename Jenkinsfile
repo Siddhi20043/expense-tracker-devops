@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USER = 'piyushkoli04'
+       DOCKERHUB_USER = 'siddhithakare03'
         IMAGE = "${DOCKERHUB_USER}/expense-tracker"
     }
 
